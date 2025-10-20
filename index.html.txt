@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TIGRO CLUB | Official Gaming Platform</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: radial-gradient(circle at top, #0a0a0a, #000);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .logo {
+      width: 130px;
+      height: auto;
+      margin-bottom: 20px;
+      filter: drop-shadow(0 0 10px #00ffff);
+    }
+
+    h1 {
+      font-size: 2.8em;
+      letter-spacing: 2px;
+      color: #fff;
+      text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-weight: 300;
+      font-size: 1.2em;
+      color: #ccc;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      background: linear-gradient(90deg, #00ffff, #007bff);
+      border: none;
+      color: #fff;
+      padding: 15px 40px;
+      border-radius: 50px;
+      font-size: 1.1em;
+      cursor: pointer;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 600;
+      box-shadow: 0 0 15px #00ffff;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      box-shadow: 0 0 25px #00ffff, 0 0 40px #007bff;
+      transform: scale(1.05);
+    }
+
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9em;
+      color: #888;
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 2.2em; }
+      .btn { padding: 12px 30px; font-size: 1em; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Replace with your actual logo image URL -->
+  <img class="logo" src="https://www.tigro444.com/#/register?invitationCode=58812100706" alt="TIGRO CLUB Logo">
+
+  <h1>Welcome to TIGRO CLUB</h1>
+  <h2>Play • Earn • Win — Join the Future of Gaming</h2>
+
+  <a href="https://t.me/tigroteacher" class="btn" target="_blank">Join on Telegram</a>
+
+  <footer>© 2025 TIGRO CLUB | All Rights Reserved</footer>
+</body>
+</html>
